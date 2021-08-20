@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import React, { Component } from "react";
 import Header from "../components/Header";
 import Greeting from "./Greeting";
+import Skills from "./Skills";
 import NotFound from "../components/NotFound";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
@@ -27,9 +28,9 @@ export default class Home extends Component {
                         <Route exact path="/">
                             <Header />
                             <Greeting />
+                            <Skills />
                         </Route>
-                        {/* <Skills />
-                        <StackProgress />
+                        {/* <StackProgress />
                         <WorkExperience />
                         <Projects />
                         <StartupProject />

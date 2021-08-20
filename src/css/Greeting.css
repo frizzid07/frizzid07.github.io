@@ -58,6 +58,13 @@
     display: inline-block;
     transform-origin: 70% 70%;
   }
+
+  .credits {
+    font-size: x-small;
+    color: white;
+    pointer-events: none;
+    cursor: default;
+  }
   
   @keyframes wave {
     0% {

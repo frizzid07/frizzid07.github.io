@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.skills-main-div {
+    display: flex;
+  }
+  .skills-text-div {
+    margin-left: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .skills-main-div > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .skills-image-div > img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .skills-heading {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  .credits {
+    font-size: x-small;
+    color: white;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .skills-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .skills-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 16px;
+      line-height: normal;
+    }
+    .skills-main-div {
+      flex-direction: column
+    }
+    .skills-text-div {
+      margin-left: 0px;
+      margin: 20px;
+    }
+    .skills-text {
+      font-size: 16px;
+    }
+    .skills-text-subtitle {
+      font-size: 16px;
+      text-align: center;
+    }
+    .skills-image-div {
+      /* display: none; */
+      order: 2;
+    }
+  }
+  

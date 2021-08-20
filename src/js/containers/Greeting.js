@@ -5,7 +5,7 @@ import "../../css/Greeting.css";
 import SocialMedia from "../components/SocialMedia";
 import Button from "../components/Button";
 import { greeting } from "../Portfolio";
-import workfromhome from "../../assets/images/work-from-home.png"
+import couchcoder from "../../assets/images/couch-coder.png"
 
 export default function Greeting() {
   return (
@@ -13,7 +13,8 @@ export default function Greeting() {
     <div className="greet-main" id="greeting">
       <div className="greeting-main">
         <div className="greeting-image-div">
-          <img alt="Work from Home" src={workfromhome}></img>
+          <img alt="Work from Home" src={couchcoder}></img>
+          <a href='https://www.freepik.com/vectors/health' className="credits">Health vector created by freepik - www.freepik.com</a>
         </div>
         <div className="greeting-text-div">
           <div>

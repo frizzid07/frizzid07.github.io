@@ -15,7 +15,9 @@
 
 .credits {
   font-size: x-small;
-  color: teal;
+  color: white;
+  pointer-events: none;
+  cursor: default;
 }
 
 /* Media Query */
@@ -35,17 +37,5 @@
 @media (max-width: 256px) {
   .not-found-image {
     max-width: 75%;
-  }
-}
-
-@media (max-width: 1380px) {
-  .credits {
-    font-size: x-small;
-  }
-}
-
-@media (max-width: 768px) {
-  .credits {
-    font-size: xx-small;
   }
 }

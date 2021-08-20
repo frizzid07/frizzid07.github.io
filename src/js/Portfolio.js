@@ -25,57 +25,68 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/tanmay_161298"
 };
 
-// // Your Skills Section
+// Your Skills Section
 
-// const skillsSection = {
-//   title: "What I do",
-//   subTitle: "Blockchain and backend developer who likes to explore new tech",
-//   skills: [
-//     emoji("⚡ Smart Contracts"),
-//     emoji("⚡ Cryptography"),
-//     emoji("⚡ Ngnix, Gunicorn"),
-//     emoji("⚡ Automation"),
-//   ],
+const skillsSection = {
+  title: "What I do",
+  subTitle: "Data Engineer and AI/ML Developer who is fond of exploring and tinkering with up-and-coming tech",
+  // skills: [
+  //   emoji("⚡ Deep Learning"),
+  //   emoji("⚡ Natural Language Processing"),
+  //   emoji("⚡ Data Analytics"),
+  //   emoji("⚡ Web Development"),
+  // ],
 
-//   /* Make Sure You include correct Font Awesome Classname to view your icon
-//   https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
-//   softwareSkills: [
-//     {
-//       skillName: "Ethereum",
-//       fontAwesomeClassname: "fab fa-ethereum"
-//     },
-//     {
-//       skillName: "python",
-//       fontAwesomeClassname: "fab fa-python"
-//     },
-//     {
-//       skillName: "django"
-//     },
-//     {
-//       skillName: "nodejs",
-//       fontAwesomeClassname: "fab fa-node"
-//     },
-//     {
-//       skillName: "aws",
-//       fontAwesomeClassname: "fab fa-aws"
-//     },
-//     {
-//       skillName: "truffle"
-//     },
-//     {
-//       skillName: "svelte"
-//     },
-//     {
-//       skillName: "EthersJs",
-//       fontAwesomeClassname: "fab fa-ethereum"
-//     },
-//     {
-//       skillName: "Nginx"
-//     }
-
-//   ]
-// };
+  softwareSkills: [
+    {
+      skillName: "Python",
+      icon: "logos:python"
+    },
+    {
+      skillName: "SQL",
+      icon: "logos:mysql"
+    },
+    {
+      skillName: "Tensorflow",
+      icon: "logos:tensorflow"
+    },
+    {
+      skillName: "PyTorch",
+      icon: "logos:pytorch"
+    },
+    {
+      skillName: "Azure",
+      icon: "logos:azure-icon"
+    },
+    {
+      skillName: "AWS",
+      icon: "logos:aws"
+    },
+    {
+      skillName: "Node.js",
+      icon: "logos:nodejs"
+    },
+    {
+      skillName: "MongoDB",
+      icon: "logos:mongodb"
+    },
+    {
+      skillName: "React",
+      icon: "logos:react"
+    },
+    {
+      skillName: "HTML",
+      icon: "logos:html-5"
+    },
+    {
+      skillName: "CSS",
+      icon: "logos:css-3"
+    }
+  ]
+};
 
 // // Your top 3 proficient stacks/tech experience
 
@@ -336,5 +347,6 @@ const socialMediaLinks = {
 
 export {
   greeting,
-  socialMediaLinks
+  socialMediaLinks,
+  skillsSection
 };
