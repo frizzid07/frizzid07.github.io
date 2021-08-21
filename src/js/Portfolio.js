@@ -3,6 +3,9 @@
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import jnj from "../assets/images/jnj-circle.png";
+import tcs from "../assets/images/tcs-small.png";
+import rait from "../assets/images/rait-try.png";
 
 const greeting = {
   /* Your Summary And Greeting Section */
@@ -88,67 +91,69 @@ const skillsSection = {
   ]
 };
 
-// // Your top 3 proficient stacks/tech experience
+// Your top 3 proficient stacks/tech experience
 
-// const techStack = {
-//   viewSkillBars: false, //Set it to true to show Proficiency Section
-//   experience: [
-//     {
-//       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-//       progressPercentage: "90%"  //Insert relative proficiency in percentage
-//     },
-//     {
-//       Stack: "Backend",
-//       progressPercentage: "70%"
-//     },
-//     {
-//       Stack: "Programming",
-//       progressPercentage: "60%"
-//     }
-//   ]
-// };
+const techStack = {
+  viewSkillBars: false, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    }
+  ]
+};
 
 
-// // Your top 3 work experiences
+// Your top 3 work experiences
 
-// const workExperiences = {
-//   viewExperiences: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Blockchain Developer",
-//       company: "Newfang",
-//       companylogo: require("./assets/images/newfang-logo.png"),
-//       date: "October 2019 – Present",
-//       desc: "Currently working on skizzle which is a chrome extension to share mails in encrypted format",
-//       descBullets: [
-//         "Develop smart contracts for the company",
-//         "Develop and maintain backend servers"
-//       ]
-//     },
-//     {
-//       role: "Blockchain Developer",
-//       company: "Blocklogy",
-//       companylogo: require("./assets/images/blocklogy.jpg"),
-//       date: "April 2019 – May 2019",
-//       descBullets: [
-//         "Built eraswap.life which is a gateway to eraswap ecosystem",
-//         "Worked on backend of dayswappers.com which is referral and affiliate program of Era Swap Ecosystem."
-//       ]
-//     },
-//     {
-//       role: "Computer Vision Intern",
-//       company: "Mahindra Susten",
-//       companylogo: require("./assets/images/susten-logo.png"),
-//       date: "Jan 2019 – Feb 2019",
-//       desc: "Photovoltaic cells crack detection using Computer Vision.\nTech stack used:",
-//       descBullets: [
-//         "Python",
-//         "OpenCv",
-//         "Docx"
-//       ]
-//     },
-//   ]
-// };
+const workExperiences = {
+  viewExperiences: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Data Engineer",
+      company: "Johnson & Johnson Pharmaceuticals",
+      companysub: "Tata Consultancy Services",
+      companylogo: jnj,
+      date: "Nov 2020 – Present",
+      desc: "Member of the Analytics & Insights Team for JnJ on behalf of Tata Consultancy Services",
+      descBullets: [
+        "Configure data pipelines for ETL processes",
+        "Create faster data workflows through PySpark",
+        "Prepare EDW Data for BI Reports"
+      ]
+    },
+    {
+      role: "Project Associate-NLP",
+      company: "Tata Consultancy Services",
+      companylogo: tcs,
+      date: "Jun 2019 – Aug 2019",
+      descBullets: [
+        "Developed an NLP pipeline for parsing & annotating 5000+ academic text documents",
+        "Built a Question Generation model to automate MCQ creation",
+        "Assigned difficult levels to generated questions according to Bloom's Taxonomy"
+      ]
+    },
+    {
+      role: "Research Intern",
+      company: "Ramrao Adik Institute of Technology",
+      companylogo: rait,
+      date: "Aug 2018 – Oct 2018",
+      desc: "Worked as a research intern on the RAIT Cluster Project at the High Performance Computing Lab",
+      descBullets: [
+        "Configured MPI Endpoints on 32 Linux machines and connected them through OpenSSH Server on LAN",
+        "Emulated heavy matrix multiplication operations to document performance efficiency"
+      ]
+    },
+  ]
+};
 
 // /* Your Open Source Section to View Your Github Pinned Projects
 // To know how to get github key look at readme.md */
@@ -348,5 +353,7 @@ const skillsSection = {
 export {
   greeting,
   socialMediaLinks,
-  skillsSection
+  skillsSection,
+  techStack,
+  workExperiences
 };

@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import Greeting from "./Greeting";
 import Skills from "./Skills";
+import WorkExperience from './WorkExperience';
 import NotFound from "../components/NotFound";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
@@ -29,6 +30,7 @@ export default class Home extends Component {
                             <Header />
                             <Greeting />
                             <Skills />
+                            <WorkExperience />
                         </Route>
                         {/* <StackProgress />
                         <WorkExperience />
