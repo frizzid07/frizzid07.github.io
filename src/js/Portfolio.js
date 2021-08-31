@@ -65,6 +65,10 @@ const skillsSection = {
       icon: "logos:azure-icon"
     },
     {
+      skillName: "Databricks",
+      icon: "simple-icons:databricks"
+    },
+    {
       skillName: "AWS",
       icon: "logos:aws"
     },
@@ -125,8 +129,9 @@ const workExperiences = {
       date: "Nov 2020 – Present",
       desc: "Member of the Analytics & Insights Team for JnJ on behalf of Tata Consultancy Services",
       descBullets: [
-        "Configure data pipelines for ETL processes",
+        "Configure Azure data pipelines for SQL workflows",
         "Create faster data workflows through PySpark",
+        "Reduce execution time for ELT Tasks through parallelization",
         "Prepare EDW Data for BI Reports"
       ]
     },
@@ -142,11 +147,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "Research Intern",
+      role: "R&D Intern",
       company: "Ramrao Adik Institute of Technology",
       companylogo: rait,
       date: "Aug 2018 – Oct 2018",
-      desc: "Worked as a research intern on the RAIT Cluster Project at the High Performance Computing Lab",
+      desc: "Worked as R&D intern on the RAIT Cluster Project at the High Performance Computing Lab",
       descBullets: [
         "Configured MPI Endpoints on 32 Linux machines and connected them through OpenSSH Server on LAN",
         "Emulated heavy matrix multiplication operations to document performance efficiency"
@@ -158,11 +163,11 @@ const workExperiences = {
 // /* Your Open Source Section to View Your Github Pinned Projects
 // To know how to get github key look at readme.md */
 
-// const openSource = {
-//   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-//   githubUserName: "SauravKanchan", // Change to your github username to view your profile in Contact Section.
-//   showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
-// };
+const projects = {
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubUserName: "frizzid07", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
+};
 
 
 // // Some Big Projects You have worked with your company
@@ -355,5 +360,6 @@ export {
   socialMediaLinks,
   skillsSection,
   techStack,
-  workExperiences
+  workExperiences,
+  projects
 };

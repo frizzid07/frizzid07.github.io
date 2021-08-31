@@ -5,10 +5,11 @@ import Greeting from "./Greeting";
 import Skills from "./Skills";
 import WorkExperience from './WorkExperience';
 import NotFound from "../components/NotFound";
+import Projects from "./Projects";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
-// import Projects from "./projects/Projects";
+// import Projects from "./Projects";
 // import StartupProject from "./StartupProjects/StartupProject";
 // import Achievement from "./achievement/Achievement";
 // import Blogs from "./blogs/Blogs";
@@ -31,6 +32,7 @@ export default class Home extends Component {
                             <Greeting />
                             <Skills />
                             <WorkExperience />
+                            <Projects />
                         </Route>
                         {/* <StackProgress />
                         <WorkExperience />
