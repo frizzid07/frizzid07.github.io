@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import Greeting from "./Greeting";
 import Skills from "./Skills";
+import Education from './Education';
 import WorkExperience from './WorkExperience';
 import NotFound from "../components/NotFound";
 import Projects from "./Projects";
@@ -31,6 +32,7 @@ export default class Home extends Component {
                             <Header />
                             <Greeting />
                             <Skills />
+                            <Education />
                             <WorkExperience />
                             <Projects />
                         </Route>

@@ -6,6 +6,8 @@ import emoji from "react-easy-emoji";
 import jnj from "../assets/images/jnj-circle.png";
 import tcs from "../assets/images/tcs-small.png";
 import rait from "../assets/images/rait-try.png";
+// import dyprait from "../assets/images/dyp-rait.png";
+// import pace from "../assets/images/pace.png";
 
 const greeting = {
   /* Your Summary And Greeting Section */
@@ -94,6 +96,31 @@ const skillsSection = {
     }
   ]
 };
+
+// const education = {
+//   institutes : [
+//     {
+//       name: "Ramrao Adik Institute of Technology",
+//       affiliation: "University of Mumbai",
+//       area: "Navi Mumbai, Maharashtra, IN",
+//       image: dyprait,
+//       startYear: 2016,
+//       endYear: 2020,
+//       score: "9.17/10",
+//       activities: "Computer Society of India, Editorial Board, Research Wing, Coders' Club"
+//     },
+//     {
+//       name: "Pace Junior Science College",
+//       affiliation: "",
+//       area: "Thane, Maharashtra, IN",
+//       image: pace,
+//       startYear: 2014,
+//       endYear: 2016,
+//       score: "Computer Science- 192/200",
+//       activities: ""
+//     }
+//   ]
+// }
 
 // Your top 3 proficient stacks/tech experience
 

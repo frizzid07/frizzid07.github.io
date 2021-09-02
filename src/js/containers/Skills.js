@@ -14,11 +14,6 @@ export default function Skills() {
                 <h1 className="skills-heading">{skillsSection.title} </h1>
                 <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p>
                 <SoftwareSkills />
-                {/* <div>
-                    {skillsSection.skills.map(skills => {
-                    return <p className="subTitle skills-text">{skills}</p>;
-                    })}
-                </div> */}
             </div>
         </Fade>
         <Fade right duration={1000}>

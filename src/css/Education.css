@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-.skills-main-div {
+.education-main-div {
     display: flex;
-    margin-bottom: -1.5rem;
   }
-  .skills-text-div {
+  .education-text-div {
     margin-left: 50px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   
-  .skills-main-div > * {
+  .education-main-div > * {
     flex: 1;
+    margin-bottom: 1.5rem;
   }
   
-  .skills-image-div > img {
-    max-width: 100%;
+  .education-image-div > img {
+    max-width: 80%;
     height: auto;
+    padding-top: 1rem;
+    align-content: center;
   }
   
-  .skills-heading {
-    font-size: 3rem;
+  .education-heading {
+    font-size: 3.5rem;
     font-weight: 400;
   }
   
@@ -33,12 +35,12 @@
 
   /* Media Query */
   @media (max-width: 1380px) {
-    .skills-heading {
+    .education-heading {
       font-size: 40px;
     }
   }
   @media (max-width: 768px) {
-    .skills-heading {
+    .education-heading {
       font-size: 30px;
       text-align: center;
     }
@@ -46,23 +48,22 @@
       font-size: 16px;
       line-height: normal;
     }
-    .skills-main-div {
+    .education-main-div {
       flex-direction: column
     }
-    .skills-text-div {
+    .education-text-div {
       margin-left: 0px;
       margin: 20px;
     }
-    .skills-text {
+    .education-text {
       font-size: 16px;
     }
-    .skills-text-subtitle {
+    .education-text-subtitle {
       font-size: 16px;
       text-align: center;
     }
-    .skills-image-div {
+    .education-image-div {
       /* display: none; */
       order: 2;
     }
   }
-  
