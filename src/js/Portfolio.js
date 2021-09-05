@@ -6,6 +6,10 @@ import emoji from "react-easy-emoji";
 import jnj from "../assets/images/jnj-circle.png";
 import tcs from "../assets/images/tcs-small.png";
 import rait from "../assets/images/rait-try.png";
+import hackathon from "../assets/gifs/hackathon-final.gif";
+import research from "../assets/gifs/research.gif";
+import intel from "../assets/gifs/intel-new.gif";
+// import google from "../assets/gifs/google.gif";
 // import dyprait from "../assets/images/dyp-rait.png";
 // import pace from "../assets/images/pace.png";
 
@@ -222,79 +226,83 @@ const projects = {
 //   ]
 // };
 
-// // Your Achievement Section Include Your Certification Talks and More
+// Your Achievement Section Include Your Certification Talks and More
 
-// const achievementSection = {
+const achievementSection = {
 
-//   title: emoji("Achievements And Certifications 🏆 "),
-//   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements 🥇"),
+  subtitle: "Hackathons, Research Work, Professional Affiliations & Certifications",
 
-//   achivementsCards: [
-//     {
-//       title: "Hackathons Won",
-//       subtitle: "",
-//       image: require("./assets/images/hackathon.gif"),
-//       descBullets: [
-//         "BitCamp 2018, CSI RAIT",
-//         "ByteCamp 2018, SIES",
-//         "FR. CRIT Hackathon 2018",
-//         "Mumbai Hackathon 2018(2n runner up)"
-//       ],
-//       footerLink: [
-//         // {
-//         //   name: "Certification",
-//         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-//         // },
-//         // {
-//         //   name: "Award Letter",
-//         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-//         // },
-//         // {name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"}
-//       ]
-//     },
-//     {
-//       title: "Research Papers",
-//       subtitle: "",
-//       image: require("./assets/images/research.gif"),
-//       descBullets: [
-//         "[1] Public Key Searchable Encryption Using Elliptic Curve Diffie-Hellman Cryptography",
-//         "[2] Novel Approaches to Text Steganography",
-//         "[3] Photovoltaic Cell Defect Detection in Solar Panel"
-//       ],
-//       footerLink: [
-//         {
-//           name: "Research [1]",
-//           url: "https://search.proquest.com/openview/c33191ce44fd7ab76fec7ba08a653848/1?pq-origsite=gscholar&cbl=2029987"
-//         },
-//         {
-//           name: "Research [2]",
-//           url: "https://www.academia.edu/42015328/Novel_Approaches_to_Text_Steganography?coauthor_invite=e85c2e0d5f38a0cd6f8c3f7c49f44b0e&src=view_btn"
-//         },
-//         {
-//           name: "Research [3]",
-//           url: "https://digitalxplore.org/pps.php?pd_id=6934"
-//         }
-//       ]
-//     },
+  achivementsCards: [
+    {
+      title: "Hackathons",
+      subtitle: "Domains- Machine Learning, Web Development",
+      image: hackathon,
+      descBullets: [
+        "Second Place @ NIT Raipur's CodeUtsava 4.0",
+        "Best Design @ RAIT's BitCamp 2019",
+        "Finalist @ TSEC Hacks 2019",
+      ],
+      footerLink: [
+        {
+          name: "CodeUtsava 4.0",
+          url: "https://drive.google.com/file/d/1DL-Gto3SWKMSCFZWRBaHvYLwn-12O_Oz/view?usp=sharing"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"}
+      ]
+    },
+    {
+      title: "Research Papers",
+      subtitle: "Topics- Deep Learning, Cryptography",
+      image: research,
+      descBullets: [
+        "[1] Enhanced Audio Source Separation and Musical Component Analysis",
+        "[2] Novel Approaches to Text Steganography",
+      ],
+      footerLink: [
+        {
+          name: "Research [1]",
+          url: "https://ieeexplore.ieee.org/document/9358850"
+        },
+        {
+          name: "Research [2]",
+          url: "https://www.academia.edu/42015328/Novel_Approaches_to_Text_Steganography"
+        }
+      ]
+    },
 
-//     {
-//       title: "Certfications",
-//       subtitle: "",
-//       image: require("./assets/images/ibm.png"),
-//       descBullets: [
-//         "IBM Blockchain Essentials",
-//         "IBM Blockchain Foundation Developer"
-//       ],
-//       footerLink: [
-//         {name: "Essentials", url: "https://courses.cognitiveclass.ai/certificates/53b82d96041b4399801af075ec2ff813"},
-//         {
-//           name: "Foundation Developer",
-//           url: "https://courses.cognitiveclass.ai/certificates/ee212efde2834dd8a4f6ada799ccfc3a"
-//         }
-//       ]
-//     }
-//   ]
-// };
+    {
+      title: "Affiliations & Certifications",
+      subtitle: "Topics- Artificial Intelligence, Data Analytics",
+      image: intel,
+      descBullets: [
+        "Student AI Ambassador for Intel Corporation",
+        "Google Data Analytics Specialization",
+        "Azure Fundamentals Certificaion",
+        "DeepLearning.AI Tensorflow Developer Specialization"
+      ],
+      footerLink: [
+        // {name: "Google", url: "https://courses.cognitiveclass.ai/certificates/53b82d96041b4399801af075ec2ff813"},
+        {
+          name: "Intel",
+          url: "https://devmesh.intel.com/users/tanmay-bhagwat/"
+        },
+        {
+          name: "MS Azure",
+          url: "https://www.credly.com/badges/50b66657-3b26-4ba1-a490-b54d76cc1f98"
+        },
+        {
+          name: "DeepLearning.AI",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/MP98546NWJQS"
+        }
+      ]
+    }
+  ]
+};
 
 // // Blogs Section
 
@@ -388,5 +396,6 @@ export {
   skillsSection,
   techStack,
   workExperiences,
-  projects
+  projects,
+  achievementSection
 };

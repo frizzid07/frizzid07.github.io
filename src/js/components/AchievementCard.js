@@ -1,12 +1,11 @@
 import React from "react";
 import "../../css/AchievementCard.css";
 
-export default function AchivementCard({ cardInfo }) {
+export default function AchievementCard({ cardInfo }) {
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
   }
-
 
   const GetDescBullets = ({ descBullets }) => {
     return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null

@@ -1,14 +1,14 @@
 import React from "react";
 import "../../css/Achievement.css";
-import AchivementCard from "../components/AchivementCard";
+import AchivementCard from "../components/AchievementCard";
 import { achievementSection } from "../Portfolio";
 import { Fade } from "react-reveal";
 
 export default function Achievement() {
-  function openUrlInNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  // function openUrlInNewTab(url) {
+  //   var win = window.open(url, "_blank");
+  //   win.focus();
+  // }
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="achievements">
