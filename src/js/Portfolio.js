@@ -9,6 +9,7 @@ import rait from "../assets/images/rait-try.png";
 import hackathon from "../assets/gifs/hackathon-final.gif";
 import research from "../assets/gifs/research.gif";
 import intel from "../assets/gifs/intel-new.gif";
+import medium from "../assets/gifs/medium.gif";
 // import google from "../assets/gifs/google.gif";
 // import dyprait from "../assets/images/dyp-rait.png";
 // import pace from "../assets/images/pace.png";
@@ -304,32 +305,32 @@ const achievementSection = {
   ]
 };
 
-// // Blogs Section
+// Blogs Section
 
-// const blogSection = {
+const blogSection = {
 
-//   title: "Blogs",
-//   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Blogs",
+  subtitle: "I have a knack for technical writing and have authored for reputed publications on Medium",
+  image: medium,
 
-//   blogs: [
-//     {
-//       url: "https://medium.com/coinmonks/compiling-deploying-and-interacting-with-smart-contract-using-javascript-641cf0342824",
-//       title: "Anonymous web authentication",
-//       description: "A modern approach to authenticate users without email and password. This blog discuss the problem " +
-//         "with current implementation and it's solution"
-//     },
-//     {
-//       url: "https://medium.com/coinmonks/compiling-deploying-and-interacting-with-smart-contract-using-javascript-641cf0342824",
-//       title: "Compiling, Deploying and Interacting with Smart Contract using JavaScript",
-//       description: "Instead of using truffle you can also compile, deploy and interact with smart contracts using ethersjs with ease"
-//     },
-//     {
-//       url: "https://dev.to/sauravkanchan/svelte-bootstrap-with-material-design-1j99",
-//       title: "Svelte Bootstrap with Material Design",
-//       description: "This project is based on the latest Bootstrap 4 and Svelte 3. Absolutely no jQuery. It is inspired by mdbreact. This blog post will be about how to install it and use it."
-//     }
-//   ]
-// };
+  blogs: [
+    {
+      url: "https://becominghuman.ai/bolstering-cybersecurity-through-artificial-intelligence-b3da5c6cb4bd",
+      title: "Bolstering Cybersecurity through Artificial Intelligence",
+      description: "The rampant progress in technology over the past decade has led to an exponential rise in data generation. Mobile computing devices make personal data easy to store and readily available. While it might be convenient to be able to access data at the click of a button, it also engenders looming security threats. This article discusses methods of using AI to prevent cyber threats."
+    },
+    {
+      url: "https://medium.datadriveninvestor.com/google-duplex-personification-at-its-best-1ee2ec828b1a",
+      title: "Blockchain: The Pinnacle of Cyber Security?",
+      description: "Imagine a world where you can ensure making any number of confidential monetary transactions without the constant dread of getting hacked. The world needs a highly secure encryption system that is way too tedious for any hacker to get into. Blockchain tends to fulfill a larger portion of this premise."
+    },
+    {
+      url: "https://medium.datadriveninvestor.com/google-duplex-personification-at-its-best-1ee2ec828b1a",
+      title: "Google Duplex — Personification at its best",
+      description: "Over the years, Google has never failed to amaze us with their cutting-edge technology and out-of-the-box experimentation. At their I/O Developer Conference in May 2018, Google unveiled their latest development in the field of neural networks i.e. Google Duplex. Duplex is an additional feature to Google Assistant, which makes the interaction much smoother and natural."
+    }
+  ]
+};
 
 // // Talks Sections
 
@@ -397,5 +398,6 @@ export {
   techStack,
   workExperiences,
   projects,
-  achievementSection
+  achievementSection,
+  blogSection
 };

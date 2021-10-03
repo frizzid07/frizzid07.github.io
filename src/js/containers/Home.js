@@ -8,6 +8,7 @@ import WorkExperience from './WorkExperience';
 import NotFound from "../components/NotFound";
 import Projects from "./Projects";
 import Achievement from './Achievement';
+import Blogs from "./Blogs";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
@@ -37,6 +38,7 @@ export default class Home extends Component {
                             <WorkExperience />
                             <Projects />
                             <Achievement />
+                            <Blogs />
                         </Route>
                         {/* <StackProgress />
                         <WorkExperience />
