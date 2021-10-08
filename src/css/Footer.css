@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.footer-text {
+    text-align: center;
+    color: #868e96;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .footer-div {
+    margin-top: 2rem;
+  }  

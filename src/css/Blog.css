@@ -31,7 +31,6 @@
   .blog-main-div > * {
     flex: 1;
     margin-top: 1rem;
-    margin-bottom: 30px;
   }
   .blog-main-div {
     display: flex;

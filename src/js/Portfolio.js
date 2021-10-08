@@ -310,7 +310,7 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "I have a knack for technical writing and have authored for reputed publications on Medium",
+  subtitle: "I have a knack for technical writing and was an author for several reputed publications on Medium",
   image: medium,
 
   blogs: [
@@ -320,7 +320,7 @@ const blogSection = {
       description: "The rampant progress in technology over the past decade has led to an exponential rise in data generation. Mobile computing devices make personal data easy to store and readily available. While it might be convenient to be able to access data at the click of a button, it also engenders looming security threats. This article discusses methods of using AI to prevent cyber threats."
     },
     {
-      url: "https://medium.datadriveninvestor.com/google-duplex-personification-at-its-best-1ee2ec828b1a",
+      url: "https://medium.datadriveninvestor.com/blockchain-the-pinnacle-of-cyber-security-fa17dbf20ba9",
       title: "Blockchain: The Pinnacle of Cyber Security?",
       description: "Imagine a world where you can ensure making any number of confidential monetary transactions without the constant dread of getting hacked. The world needs a highly secure encryption system that is way too tedious for any hacker to get into. Blockchain tends to fulfill a larger portion of this premise."
     },
@@ -332,64 +332,12 @@ const blogSection = {
   ]
 };
 
-// // Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
-//   talks: [
-//     {
-//       title: "Faculty development program in UMIT",
-//       subtitle: "Blockchain Basics",
-//       event_url: "https://www.picuki.com/media/2068816140826916633"
-//     },
-//     {
-//       title: "Automate the boring stuffs with python",
-//       subtitle: "Workshop conducted by ISTE RAIT",
-//       event_url: "https://www.facebook.com/isteraitofficial/photos/a.2047088395524310/2510579635841848/?type=3"
-//     }
-//   ]
-// };
-
-// // Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-// };
-
-// const contactInfo = {
-//   title: emoji("Contact Me ☎️"),
-//   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-//   number: "+91-9594464390",
-//   email_address: "sauravn@gmail.com"
-// };
-
-// //Twitter Section
-
-// const twitterDetails = {
-
-//   userName: "sauravnk30"//Replace "twitter" with your twitter username without @
-
-// };
-// export {
-//   greeting,
-//   socialMediaLinks,
-//   skillsSection,
-//   techStack,
-//   workExperiences,
-//   openSource,
-//   bigProjects,
-//   achievementSection,
-//   blogSection,
-//   talkSection,
-//   podcastSection,
-//   contactInfo,
-//   twitterDetails
-// };
+const contactInfo = {
+  title: emoji("Contact Me 📲"),
+  subtitle: "Want to collaborate on a research project or just want to say hi? My Inbox is open for all.",
+  number: "+91-9920361298",
+  email_address: "tanmaybhagwat07@gmail.com"
+};
 
 export {
   greeting,
@@ -399,5 +347,6 @@ export {
   workExperiences,
   projects,
   achievementSection,
-  blogSection
+  blogSection,
+  contactInfo
 };

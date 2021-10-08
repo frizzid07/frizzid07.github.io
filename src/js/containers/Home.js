@@ -9,6 +9,9 @@ import NotFound from "../components/NotFound";
 import Projects from "./Projects";
 import Achievement from './Achievement';
 import Blogs from "./Blogs";
+import Profile from "./Profile";
+import Footer from "../components/Footer";
+import Top from "./Top";
 // import Skills from "./skills/Skills";
 // import StackProgress from "./skillProgress/skillProgress";
 // import WorkExperience from "./workExperience/WorkExperience";
@@ -39,6 +42,9 @@ export default class Home extends Component {
                             <Projects />
                             <Achievement />
                             <Blogs />
+                            <Profile />
+                            <Footer />
+                            <Top />
                         </Route>
                         {/* <StackProgress />
                         <WorkExperience />
