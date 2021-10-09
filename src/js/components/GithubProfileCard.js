@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/GithubProfileCard.css";
 import SocialMedia from "../components/SocialMedia";
+import profile from "../../assets/images/profile.jpg";
 import {contactInfo} from "../Portfolio";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
@@ -33,7 +34,8 @@ export default function GithubProfileCard({prof}) {
             <SocialMedia/>
           </div>
           <div className="image-content-profile">
-            <img src={prof.avatarUrl} alt={prof.name} className="profile-image"/>
+            {/* prof.avatarUrl */}
+            <img src={profile} alt={prof.name} className="profile-image"/>
           </div>
         </div>
       </div>
