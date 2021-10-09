@@ -18,8 +18,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Tanmay Bhagwat",
   title: "Hello world, I'm Tanmay",
-  subTitle: emoji("A passionate AI & ML Developer from India. Enthusiastic researcher of Neural Networks & Cryptography. Currently active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
-  resumeLink: "https://drive.google.com/file/d/1uBnsY1LBXbhFxvR_fX4gp06fiSdvyM1-/view?usp=sharing"
+  subTitle: emoji("A passionate AI & ML Developer from India. Enthusiastic about Deep Learning & Cryptography. Currently active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
+  resumeLink: "https://drive.google.com/file/d/1dzk2T28B5HMuvDhPyyjIiM5fQ5gQ3ki0/view?usp=sharing"
 };
 
 // Your Social Media Link
