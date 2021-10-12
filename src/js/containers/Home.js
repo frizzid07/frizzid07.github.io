@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import React, { Component } from "react";
+import { Helmet } from 'react-helmet';
 import Header from "../components/Header";
 import Greeting from "./Greeting";
 import Skills from "./Skills";
@@ -12,25 +13,14 @@ import Blogs from "./Blogs";
 import Profile from "./Profile";
 import Footer from "../components/Footer";
 import Top from "./Top";
-// import Skills from "./skills/Skills";
-// import StackProgress from "./skillProgress/skillProgress";
-// import WorkExperience from "./workExperience/WorkExperience";
-// import Projects from "./Projects";
-// import StartupProject from "./StartupProjects/StartupProject";
-// import Achievement from "./achievement/Achievement";
-// import Blogs from "./blogs/Blogs";
-// import Contact from "./contact/Contact";
-// import Footer from "../components/footer/Footer";
-// import Talks from "./talks/Talks";
-// import Podcast from "./podcast/Podcast";
-// import Top from "./topbutton/Top";
-// import Twitter from "./twitter-embed/twitter";
-// import Profile from "./profile/Profile";
 
 export default class Home extends Component {
     render() {
         return (
             <Router>
+                <Helmet>
+                    <title>Tanmay Bhagwat</title>
+                </Helmet>
                 <div>
                     <Switch>
                         <Route exact path="/">
@@ -46,16 +36,6 @@ export default class Home extends Component {
                             <Footer />
                             <Top />
                         </Route>
-                        {/* <StackProgress />
-                        <WorkExperience />
-                        <Projects />
-                        <StartupProject />
-                        <Achievement />
-                        <Blogs />
-                        <Talks />
-                        <Profile />
-                        <Footer />
-                        <Top /> */}
                         <Route path="*">
                             <Header />
                             <NotFound />

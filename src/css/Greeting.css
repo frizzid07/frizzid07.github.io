@@ -49,7 +49,7 @@
   .greeting-image-div > img {
     max-width: 90%;
     height: auto;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
   .wave-emoji {
     animation-duration: 1.8s;
@@ -100,12 +100,15 @@
     }
   }
   @media (max-width: 768px) {
+    .greeting-image-div {
+      margin-top: -2.5rem;
+    }
     .button-greeting-div {
       justify-content: space-around;
       text-align: center;
     }
     .greeting-text {
-      font-size: 30px;
+      font-size: 2.5rem;
       text-align: center;
     }
     .greeting-text-p {
