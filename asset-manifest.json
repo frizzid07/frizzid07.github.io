@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.41fab1b0.chunk.css",
-    "main.js": "/static/js/main.9b288a70.chunk.js",
-    "main.js.map": "/static/js/main.9b288a70.chunk.js.map",
+    "main.css": "/static/css/main.d38522fa.chunk.css",
+    "main.js": "/static/js/main.66b3e899.chunk.js",
+    "main.js.map": "/static/js/main.66b3e899.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9856f697.js",
     "runtime-main.js.map": "/static/js/runtime-main.9856f697.js.map",
-    "static/js/2.9929f044.chunk.js": "/static/js/2.9929f044.chunk.js",
-    "static/js/2.9929f044.chunk.js.map": "/static/js/2.9929f044.chunk.js.map",
+    "static/js/2.0c653a81.chunk.js": "/static/js/2.0c653a81.chunk.js",
+    "static/js/2.0c653a81.chunk.js.map": "/static/js/2.0c653a81.chunk.js.map",
     "static/css/3.2a8a9e1f.chunk.css": "/static/css/3.2a8a9e1f.chunk.css",
     "static/js/3.98996b65.chunk.js": "/static/js/3.98996b65.chunk.js",
     "static/js/3.98996b65.chunk.js.map": "/static/js/3.98996b65.chunk.js.map",
@@ -18,8 +18,8 @@
     "index.html": "/index.html",
     "static/css/3.2a8a9e1f.chunk.css.map": "/static/css/3.2a8a9e1f.chunk.css.map",
     "static/css/4.0b417472.chunk.css.map": "/static/css/4.0b417472.chunk.css.map",
-    "static/css/main.41fab1b0.chunk.css.map": "/static/css/main.41fab1b0.chunk.css.map",
-    "static/js/2.9929f044.chunk.js.LICENSE.txt": "/static/js/2.9929f044.chunk.js.LICENSE.txt",
+    "static/css/main.d38522fa.chunk.css.map": "/static/css/main.d38522fa.chunk.css.map",
+    "static/js/2.0c653a81.chunk.js.LICENSE.txt": "/static/js/2.0c653a81.chunk.js.LICENSE.txt",
     "static/media/couch-coder.d80772cc.png": "/static/media/couch-coder.d80772cc.png",
     "static/media/graduate.1c28dace.png": "/static/media/graduate.1c28dace.png",
     "static/media/hackathon-final.d5a46fae.gif": "/static/media/hackathon-final.d5a46fae.gif",
@@ -28,13 +28,14 @@
     "static/media/intel-new.aaac2611.gif": "/static/media/intel-new.aaac2611.gif",
     "static/media/jnj-circle.de2808f8.png": "/static/media/jnj-circle.de2808f8.png",
     "static/media/medium.36a88427.gif": "/static/media/medium.36a88427.gif",
+    "static/media/profile.59dd8753.jpg": "/static/media/profile.59dd8753.jpg",
     "static/media/research.7d64e0b7.gif": "/static/media/research.7d64e0b7.gif",
     "static/media/tcs-small.18f54de3.png": "/static/media/tcs-small.18f54de3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9856f697.js",
-    "static/js/2.9929f044.chunk.js",
-    "static/css/main.41fab1b0.chunk.css",
-    "static/js/main.9b288a70.chunk.js"
+    "static/js/2.0c653a81.chunk.js",
+    "static/css/main.d38522fa.chunk.css",
+    "static/js/main.66b3e899.chunk.js"
   ]
 }
