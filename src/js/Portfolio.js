@@ -22,8 +22,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Tanmay Bhagwat",
   title: "Hello world, I'm Tanmay",
-  subTitle: emoji("A passionate AI & ML Developer from India. Enthusiastic about Deep Learning & Cryptography. Currently active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
-  resumeLink: "https://drive.google.com/file/d/1JQbn23XN8aStuk2EjMzbgywgmI7MYsMs/view?usp=sharing"
+  subTitle: emoji("A passionate CS Graduate Student at UC Irvine. Enthusiastic about Data-driven AI/ML Software Development. Previously active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
+  resumeLink: "https://drive.google.com/file/d/1rgH1TX75k-KYZR6SEusPsYFWS3ssJ93_/view?usp=sharing",
+  cvLink: "https://drive.google.com/file/d/1des2sjfKsZdaLpIYtkL-PDkOEj-0pWDM/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -163,13 +164,13 @@ const workExperiences = {
       company: "Johnson & Johnson Pharmaceuticals",
       companysub: "Tata Consultancy Services",
       companylogo: jnj,
-      date: "Nov 2020 – Present",
+      date: "Nov 2020 – Jul 2022",
       desc: "Member of the Analytics & Insights Team for JnJ on behalf of Tata Consultancy Services",
       descBullets: [
-        "Configure Azure data pipelines for SQL workflows",
-        "Create faster data workflows through PySpark",
-        "Reduce execution time for ELT Tasks through parallelization",
-        "Prepare EDW Data for BI Reports"
+        "Remodeled database architecture for Global Inventory data",
+        "Configured faster Big Data ETL pipelines through PySpark",
+        "Reduce execution time for transformation workflows through parallelization",
+        "Migrated APAC Inventory data from EDW to Azure Data Lake"
       ]
     },
     {
@@ -180,7 +181,7 @@ const workExperiences = {
       descBullets: [
         "Developed an NLP pipeline for parsing & annotating 5000+ academic text documents",
         "Built a Question Generation model to automate MCQ creation",
-        "Assigned difficult levels to generated questions according to Bloom's Taxonomy"
+        "Assigned difficulty levels to generated questions according to Bloom's Taxonomy"
       ]
     },
     {
@@ -190,8 +191,8 @@ const workExperiences = {
       date: "Aug 2018 – Oct 2018",
       desc: "Worked as R&D intern on the RAIT Cluster Project at the High Performance Computing Lab",
       descBullets: [
-        "Configured MPI Endpoints on 32 Linux machines and connected them through OpenSSH Server on LAN",
-        "Emulated heavy matrix multiplication operations to document performance efficiency"
+        "Configured MPI Endpoints on 16 Linux machines and connected them through OpenSSH Server on LAN",
+        "Emulated heavy matrix multiplication operations to document 200% performance improvement"
       ]
     },
   ]
@@ -211,21 +212,9 @@ const projects = {
 
 const bigProjects = {
   viewProjects: true,
-  title: "Academic & Professional Projects",
+  title: "Academic & Personal Projects",
   subtitle: "Some interesting ventures I have worked on in my student and professional life",
   projects: [
-    {
-      image: facemask,
-      title: 'Real-time facial mask detection',
-      description: 'A Convolutional neural network-based classifier which monitors the usage of facial masks in public places using real-time video feed',
-      footerLink : [
-        {
-          name: 'View Project',
-          url: ''
-        }
-      ]
-    },
-    // <a href='https://www.freepik.com/vectors/medical'>Medical vector created by pikisuperstar - www.freepik.com</a>
     {
       image: audio,
       title: 'Enhanced Audio Source Separation',
@@ -260,8 +249,20 @@ const bigProjects = {
           url: 'https://github.com/frizzid07/driver-alertness-detection'
         }
       ]
-    }
+    },
     // <a href='https://www.freepik.com/photos/car'>Car photo created by diana.grytsku - www.freepik.com</a>
+    {
+      image: facemask,
+      title: 'Real-time facial mask detection',
+      description: 'A Convolutional neural network-based classifier which monitors the usage of facial masks in public places using real-time video feed',
+      footerLink : [
+        {
+          name: 'View Project',
+          url: ''
+        }
+      ]
+    },
+    // <a href='https://www.freepik.com/vectors/medical'>Medical vector created by pikisuperstar - www.freepik.com</a>
   ]
 };
 
@@ -279,6 +280,7 @@ const achievementSection = {
       image: hackathon,
       descBullets: [
         "Second Place @ NIT Raipur's CodeUtsava 4.0",
+        "Third Place @ SRM University's HackSRM",
         "Best Design @ RAIT's BitCamp 2019",
         "Finalist @ TSEC Hacks 2019",
       ],
@@ -380,9 +382,9 @@ const blogSection = {
 
 const contactInfo = {
   title: emoji("Contact Me 📲"),
-  subtitle: "Want to collaborate on a research project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Want to hire me or collaborate on a project? Scan the QR Code to view my LinkTree and feel free to just say Hi! My Inbox is open for all.",
   number: "+91-9920361298",
-  email_address: "tanmaybhagwat07@gmail.com"
+  email_address: "tvbhagwa@uci.edu"
 };
 
 export {
