@@ -3,6 +3,10 @@
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import audio from "../assets/images/audio.jpg";
+import driver from "../assets/images/driver.jpg";
+import facemask from "../assets/images/facemask.jpg";
+import farmeasy from "../assets/images/farmeasy.jpg";
 import jnj from "../assets/images/jnj-circle.png";
 import tcs from "../assets/images/tcs-small.png";
 import rait from "../assets/images/rait-try.png";
@@ -19,7 +23,7 @@ const greeting = {
   username: "Tanmay Bhagwat",
   title: "Hello world, I'm Tanmay",
   subTitle: emoji("A passionate AI & ML Developer from India. Enthusiastic about Deep Learning & Cryptography. Currently active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
-  resumeLink: "https://drive.google.com/file/d/1dzk2T28B5HMuvDhPyyjIiM5fQ5gQ3ki0/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1JQbn23XN8aStuk2EjMzbgywgmI7MYsMs/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -27,6 +31,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/frizzid07",
+  githubrepo: "https://github.com/frizzid07?tab=repositories",
   linkedin: "https://www.linkedin.com/in/tanmay-bhagwat/",
   gmail: "tanmaybhagwat07@gmail.com",
   // facebook: "https://www.facebook.com/saurav.kanchan/",
@@ -202,30 +207,63 @@ const projects = {
 };
 
 
-// // Some Big Projects You have worked with your company
+// Some Big Projects You have worked with your company
 
-// const bigProjects = {
-//   title: "Big Projects",
-//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-//   projects: [
-//     {
-//       image: require("./assets/images/skizzle.png"),
-//       link: "https://explorer.skizzle.email/"
-//     },
-//     {
-//       image: require("./assets/images/eraswaplife.png"),
-//       link: "https://eraswap.life/"
-//     },
-//     {
-//       image: require("./assets/images/dayswappers.png"),
-//       link: "https://dayswappers.com/"
-//     },
-//     {
-//       image: require("./assets/images/khelomore.png"),
-//       link: "https://pnp.khelomore.com/"
-//     }
-//   ]
-// };
+const bigProjects = {
+  viewProjects: true,
+  title: "Academic & Professional Projects",
+  subtitle: "Some interesting ventures I have worked on in my student and professional life",
+  projects: [
+    {
+      image: facemask,
+      title: 'Real-time facial mask detection',
+      description: 'A Convolutional neural network-based classifier which monitors the usage of facial masks in public places using real-time video feed',
+      footerLink : [
+        {
+          name: 'View Project',
+          url: ''
+        }
+      ]
+    },
+    // <a href='https://www.freepik.com/vectors/medical'>Medical vector created by pikisuperstar - www.freepik.com</a>
+    {
+      image: audio,
+      title: 'Enhanced Audio Source Separation',
+      description: 'A system to perform accurate source separation on musical audio to split the track into four stems, i.e. vocals, drums, bass and accompaniment, using hybrid neural networks',
+      footerLink : [
+        {
+          name: 'View Project',
+          url: 'https://github.com/frizzid07/Enhanced-Audio-Source-Separation'
+        }
+      ]
+    },
+    // <a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>
+    {
+      image: farmeasy,
+      title: 'FarmEasy',
+      description: 'An AI-powered chatbot which enables farmers to obtain expert guidance and grievance redressal through features like Best Crop Suggestion & Crop Disease Detection',
+      footerLink : [
+        {
+          name: 'View Project',
+          url: 'https://github.com/frizzid07/krushak-unnati'
+        }
+      ]
+    },
+    // <a href='https://www.freepik.com/vectors/abstract'>Abstract vector created by vectorjuice - www.freepik.com</a>
+    {
+      image: driver,
+      title: 'Driver Alertness Detection',
+      description: 'A system deployed on the vehicular dashboard camera to monitor the heartbeat and facial features of the driver to detect drowsiness and issue alerts',
+      footerLink : [
+        {
+          name: 'View Project',
+          url: 'https://github.com/frizzid07/driver-alertness-detection'
+        }
+      ]
+    }
+    // <a href='https://www.freepik.com/photos/car'>Car photo created by diana.grytsku - www.freepik.com</a>
+  ]
+};
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -270,9 +308,17 @@ const achievementSection = {
           url: "https://ieeexplore.ieee.org/document/9358850"
         },
         {
+          name: "Certificate [1]",
+          url: "https://drive.google.com/file/d/1Ugvpi7a544nZSRXSBNdSys44al0oDvjs/view?usp=sharing"
+        },
+        {
           name: "Research [2]",
           url: "https://www.academia.edu/42015328/Novel_Approaches_to_Text_Steganography"
-        }
+        },
+        {
+          name: "Certificate [2]",
+          url: "https://drive.google.com/file/d/1Nc4Khb1Wns2oPWEwRVwaWlj-qiCLCokI/view?usp=sharing"
+        },
       ]
     },
 
@@ -346,6 +392,7 @@ export {
   techStack,
   workExperiences,
   projects,
+  bigProjects,
   achievementSection,
   blogSection,
   contactInfo

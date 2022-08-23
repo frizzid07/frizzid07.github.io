@@ -6,6 +6,12 @@
     line-height: normal;
     font-family: 'Quicksand', sans-serif;
   }
+
+  .project-subtitle {
+    margin-top: -0.5rem;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+  }
   
   .startup-project-text img{
     max-width: 100%;

@@ -1,7 +1,7 @@
 import Headroom from 'react-headroom';
 import "../../css/App.css";
 import '../../css/Header.css';
-import {greeting, projects} from "../Portfolio";
+import {greeting} from "../Portfolio";
 
 const Header = () => {
     return (
@@ -26,11 +26,14 @@ const Header = () => {
                     <li>
                         <a href="#experience">Work Experience</a>
                     </li>
-                    {projects.showGithubProfile === "true" && 0==1 ? 
+                    {/* {projects.showGithubProfile === "true" && 0==1 ? 
                     <li>
                         <a href="#projects">Projects</a>
                     </li>
-                    : null}
+                    : null} */}
+                    <li>
+                        <a href="#bigProjects">Projects</a>
+                    </li>
                     <li>
                         <a href="#achievements">Achievements</a>
                     </li>
