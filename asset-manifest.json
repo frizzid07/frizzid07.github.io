@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d13c78de.chunk.css",
-    "main.js": "/static/js/main.faaacb43.chunk.js",
-    "main.js.map": "/static/js/main.faaacb43.chunk.js.map",
+    "main.js": "/static/js/main.57a534fc.chunk.js",
+    "main.js.map": "/static/js/main.57a534fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.743af2bb.js",
     "runtime-main.js.map": "/static/js/runtime-main.743af2bb.js.map",
     "static/js/2.a54c35f6.chunk.js": "/static/js/2.a54c35f6.chunk.js",
@@ -21,6 +21,7 @@
     "static/css/main.d13c78de.chunk.css.map": "/static/css/main.d13c78de.chunk.css.map",
     "static/js/2.a54c35f6.chunk.js.LICENSE.txt": "/static/js/2.a54c35f6.chunk.js.LICENSE.txt",
     "static/media/Linktree-QR.75192edc.png": "/static/media/Linktree-QR.75192edc.png",
+    "static/media/Profile-Shot.42f48396.jpg": "/static/media/Profile-Shot.42f48396.jpg",
     "static/media/audio.7ccdef19.jpg": "/static/media/audio.7ccdef19.jpg",
     "static/media/couch-coder.d80772cc.png": "/static/media/couch-coder.d80772cc.png",
     "static/media/driver.9cc791ea.jpg": "/static/media/driver.9cc791ea.jpg",
@@ -33,7 +34,6 @@
     "static/media/intel-new.aaac2611.gif": "/static/media/intel-new.aaac2611.gif",
     "static/media/jnj-circle.de2808f8.png": "/static/media/jnj-circle.de2808f8.png",
     "static/media/medium.36a88427.gif": "/static/media/medium.36a88427.gif",
-    "static/media/profile.59dd8753.jpg": "/static/media/profile.59dd8753.jpg",
     "static/media/research.7d64e0b7.gif": "/static/media/research.7d64e0b7.gif",
     "static/media/tcs-small.18f54de3.png": "/static/media/tcs-small.18f54de3.png"
   },
@@ -41,6 +41,6 @@
     "static/js/runtime-main.743af2bb.js",
     "static/js/2.a54c35f6.chunk.js",
     "static/css/main.d13c78de.chunk.css",
-    "static/js/main.faaacb43.chunk.js"
+    "static/js/main.57a534fc.chunk.js"
   ]
 }
