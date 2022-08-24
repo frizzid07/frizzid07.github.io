@@ -40,7 +40,9 @@
 }
 
 .contact-image-div {
-    text-align: right;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     flex: 20%;
@@ -51,7 +53,8 @@
 .profile-image {
     border-radius: 50%;
     border: 0.5rem solid teal;
-    margin-left: auto;
+    margin-left: 5%;
+    margin-right: 8%;
     width: 100%;
     max-width: 350px;
     height: auto;
@@ -65,7 +68,7 @@
 
   .linktree-image {
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 8%;
     width: 50%;
     max-width: 300px;
     height: auto;
@@ -115,6 +118,7 @@
     .profile-image {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10%;
         width: 100%;
         max-width: 250px;
         height: auto;

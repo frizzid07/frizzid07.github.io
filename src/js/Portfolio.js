@@ -213,7 +213,7 @@ const projects = {
 const bigProjects = {
   viewProjects: true,
   title: "Academic & Personal Projects",
-  subtitle: "Some interesting ventures I have worked on in my student and professional life",
+  subtitle: "Some interesting ventures I have worked on in my student life",
   projects: [
     {
       image: audio,

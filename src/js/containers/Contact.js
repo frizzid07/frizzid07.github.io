@@ -3,7 +3,7 @@ import "../../css/Contact.css";
 import SocialMedia from "../components/SocialMedia";
 import {contactInfo} from "../Portfolio";
 import { Fade } from "react-reveal";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/Profile-Shot.jpg";
 import linktree from "../../assets/images/Linktree-QR.png";
 
 export default function Contact() {
@@ -25,8 +25,8 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Linktree QR" title="LinkTree QR Code" src={linktree} className="linktree-image"></img>
                     <img alt="Profile" src={profile} className="profile-image"></img>
+                    <img alt="Linktree QR" title="LinkTree QR Code" src={linktree} className="linktree-image"></img>
                 </div>
             </div>
         </div>
