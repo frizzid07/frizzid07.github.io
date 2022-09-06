@@ -34,7 +34,7 @@ const socialMediaLinks = {
   github: "https://github.com/frizzid07",
   githubrepo: "https://github.com/frizzid07?tab=repositories",
   linkedin: "https://www.linkedin.com/in/tanmay-bhagwat/",
-  gmail: "tanmaybhagwat07@gmail.com",
+  gmail: "tvbhagwa@uci.edu",
   // facebook: "https://www.facebook.com/saurav.kanchan/",
   medium: "https://medium.com/@tanmaybhagwat",
   // Instagram and Twitter are also supported in the links!

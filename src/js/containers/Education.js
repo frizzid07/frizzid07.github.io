@@ -51,7 +51,7 @@ export default function Education() {
                     </BodyContent>
                 </Container>
                 <Container>
-                    <YearContent startDate='2016/08/12' endDate='2020/10/17' />
+                    <YearContent startDate='2016/08/12' endDate='2020/11/07' />
                     <BodyContent>
                         <Section title='University of Mumbai'>
                             <Description variant='subtitle' text='B.E. in Computer Engineering @ Ramrao Adik Institute of Technology' /><br />
