@@ -23,7 +23,7 @@ const greeting = {
   username: "Tanmay Bhagwat",
   title: "Hello world, I'm Tanmay",
   subTitle: emoji("A passionate CS Graduate Student at UC Irvine. Enthusiastic about Data-driven AI/ML Software Development. Previously active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
-  resumeLink: "https://drive.google.com/file/d/1rgH1TX75k-KYZR6SEusPsYFWS3ssJ93_/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1PvnFCkr1UZoiFkhqpSjdngwW2tz7Piub/view?usp=sharing",
   cvLink: "https://drive.google.com/file/d/1des2sjfKsZdaLpIYtkL-PDkOEj-0pWDM/view?usp=sharing"
 };
 
@@ -383,7 +383,7 @@ const blogSection = {
 const contactInfo = {
   title: emoji("Contact Me 📲"),
   subtitle: "Want to hire me or collaborate on a project? Scan the QR Code to view my LinkTree and feel free to just say Hi! My Inbox is open for all.",
-  number: "+91-9920361298",
+  number: "+1(949)-501-5507",
   email_address: "tvbhagwa@uci.edu"
 };
 
