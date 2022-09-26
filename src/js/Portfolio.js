@@ -23,7 +23,7 @@ const greeting = {
   username: "Tanmay Bhagwat",
   title: "Hello world, I'm Tanmay",
   subTitle: emoji("A passionate CS Graduate Student at UC Irvine. Enthusiastic about Data-driven AI/ML Software Development. Previously active as a Data Engineer for Johnson & Johnson Pharmaceuticals."),
-  resumeLink: "https://drive.google.com/file/d/1PvnFCkr1UZoiFkhqpSjdngwW2tz7Piub/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1astAogKRhrgtx9LZH0Ln2ykw3T4GfNay/view?usp=sharing",
   cvLink: "https://drive.google.com/file/d/1des2sjfKsZdaLpIYtkL-PDkOEj-0pWDM/view?usp=sharing"
 };
 
@@ -104,9 +104,12 @@ const skillsSection = {
     {
       skillName: "CSS",
       icon: "logos:css-3"
+    },
+    {
+      skillName: "C++",
+      icon: "logos:c-plusplus"
     }
-  ]
-};
+  ]};
 
 // const education = {
 //   institutes : [
