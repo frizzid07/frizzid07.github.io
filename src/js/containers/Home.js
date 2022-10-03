@@ -8,7 +8,7 @@ import Education from './Education';
 import WorkExperience from './WorkExperience';
 import NotFound from "../components/NotFound";
 import Projects from "./Projects";
-import ProjectList from "./Project-list";
+// import ProjectList from "./Project-list";
 import Achievement from './Achievement';
 import Blogs from "./Blogs";
 import Profile from "./Profile";
@@ -31,7 +31,7 @@ export default class Home extends Component {
                             <Education />
                             <WorkExperience />
                             <Projects />
-                            <ProjectList />
+                            {/* <ProjectList /> */}
                             <Achievement />
                             <Blogs />
                             <Profile />
